@@ -1,0 +1,20 @@
+.checkbox-wrapper {
+    max-width: 400px;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+.checkbox-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.checkbox-list label {
+    display: block;
+    margin: 5px 0;
+}
+
+.checkbox-counter {
+    margin-top: 10px;
+    font-style: italic;
+}

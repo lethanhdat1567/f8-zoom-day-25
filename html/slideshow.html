@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/slideshow.css" />
+        <title>Slideshow</title>
+    </head>
+    <body>
+        <div class="slideshow" id="slideshow1">
+            <div class="slides">
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img1.avif')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img2.avif')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img3.avif')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img4.avif')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img5.avif')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('../imgs/img6.avif')"
+                ></div>
+            </div>
+        </div>
+
+        <script src="/js/slideshow.js"></script>
+        <script>
+            const slider1 = new Slideshow("#slideshow1");
+        </script>
+    </body>
+</html>
